@@ -82,7 +82,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             {/* Static Guards - Large Featured Card */}
-            <div className="md:col-span-2 lg:col-span-1 bg-card text-foreground p-0 rounded-3xl overflow-hidden relative group hover:shadow-2xl transition-all duration-300 border border-border">
+            <div className="md:col-span-2 lg:col-span-1 bg-card text-foreground p-0 rounded-3xl overflow-hidden relative group hover:shadow-2xl transition-all duration-300 border border-border animate-slide-in-from-bottom" style={{ animationDelay: "100ms" }}>
               <div className="relative overflow-hidden h-64 md:h-80">
                 <img
                   src="https://images.pexels.com/photos/29656069/pexels-photo-29656069.jpeg?auto=compress&cs=tinysrgb&w=800"
