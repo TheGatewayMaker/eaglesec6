@@ -12,10 +12,10 @@ import {
 
 export default function Home() {
   return (
-    <div className="bg-white">
+    <div className="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
       {/* Hero Section - Dark Background with Bold Typography */}
-      <section className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white relative overflow-hidden py-24 md:py-40">
-        <div className="absolute inset-0 opacity-20">
+      <section className="bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 text-white relative overflow-hidden py-24 md:py-40">
+        <div className="absolute inset-0 opacity-15">
           <div className="absolute top-20 right-20 w-80 h-80 bg-accent rounded-full blur-3xl"></div>
         </div>
 
@@ -26,10 +26,10 @@ export default function Home() {
               <p className="text-sm font-black text-accent mb-6 uppercase tracking-widest">
                 Professional Security Since 1992
               </p>
-              <h1 className="text-5xl md:text-7xl font-black text-white mb-8 leading-tight">
+              <h1 className="text-4xl sm:text-5xl md:text-7xl font-black text-white mb-8 leading-tight">
                 Elite Security Services For Your Peace of Mind
               </h1>
-              <p className="text-lg md:text-xl text-gray-200 font-bold mb-12 leading-relaxed">
+              <p className="text-base sm:text-lg md:text-xl text-gray-300 font-bold mb-12 leading-relaxed">
                 Drawn from the armed forces of Pakistan, our personnel deliver
                 world-class security with precision, discipline, and unwavering
                 commitment to your safety.
@@ -37,13 +37,13 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-6">
                 <Link
                   to="/services"
-                  className="bg-accent text-accent-foreground px-10 py-5 font-black text-lg text-center rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block"
+                  className="bg-accent text-accent-foreground px-8 sm:px-10 py-4 sm:py-5 font-black text-base sm:text-lg text-center rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block"
                 >
                   Explore Services
                 </Link>
                 <Link
                   to="/contact"
-                  className="border-3 border-accent text-accent px-10 py-5 font-black text-lg text-center rounded-xl hover:bg-accent hover:text-accent-foreground transition-all duration-300 inline-block"
+                  className="border-3 border-accent text-accent px-8 sm:px-10 py-4 sm:py-5 font-black text-base sm:text-lg text-center rounded-xl hover:bg-accent hover:text-accent-foreground transition-all duration-300 inline-block"
                 >
                   Request Consultation
                 </Link>
@@ -53,8 +53,8 @@ export default function Home() {
             {/* Right Visual - Hero Image */}
             <div className="relative hidden md:block overflow-hidden rounded-xl shadow-2xl h-96">
               <img
-                src="https://images.pexels.com/photos/3706640/pexels-photo-3706640.jpeg?auto=compress&cs=tinysrgb&w=600"
-                alt="Professional security personnel in uniform"
+                src="https://images.pexels.com/photos/3880225/pexels-photo-3880225.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Professional security personnel in uniform - Military training"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"></div>
@@ -64,17 +64,17 @@ export default function Home() {
       </section>
 
       {/* Services Overview - Color Blocked */}
-      <section className="py-28 md:py-40 bg-slate-50">
+      <section className="py-28 md:py-40 bg-gradient-to-b from-slate-900 to-slate-800">
         <div className="container mx-auto px-6">
           {/* Section Title with Visual Styling */}
           <div className="mb-16 md:mb-20">
             <div className="flex items-start gap-3 md:gap-4 mb-6 md:mb-8">
               <div className="w-1.5 md:w-2 h-10 md:h-12 bg-accent rounded-full flex-shrink-0 mt-1"></div>
-              <h2 className="text-3xl md:text-6xl font-black text-primary leading-tight">
+              <h2 className="text-3xl md:text-6xl font-black text-white leading-tight">
                 Our Security Services
               </h2>
             </div>
-            <p className="text-sm md:text-xl font-bold text-foreground ml-6 md:ml-8 max-w-2xl leading-relaxed">
+            <p className="text-sm md:text-xl font-bold text-gray-300 ml-6 md:ml-8 max-w-2xl leading-relaxed">
               Comprehensive solutions designed to protect what matters most to
               you
             </p>
@@ -82,11 +82,11 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             {/* Static Guards - Large Featured Card */}
-            <div className="md:col-span-2 lg:col-span-1 bg-gradient-to-br from-slate-900 to-slate-800 text-white p-0 rounded-3xl overflow-hidden relative group hover:shadow-2xl transition-all duration-300">
+            <div className="md:col-span-2 lg:col-span-1 bg-gradient-to-br from-slate-800 to-slate-700 text-white p-0 rounded-3xl overflow-hidden relative group hover:shadow-2xl transition-all duration-300">
               <div className="relative overflow-hidden h-64 md:h-80">
                 <img
-                  src="https://images.pexels.com/photos/30487150/pexels-photo-30487150.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt="Professional security guards"
+                  src="https://images.pexels.com/photos/29656069/pexels-photo-29656069.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="Professional security guards with tactical gear"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent"></div>
@@ -110,7 +110,7 @@ export default function Home() {
             </div>
 
             {/* Bodyguards Card */}
-            <div className="bg-sky-500 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+            <div className="bg-gradient-to-br from-blue-700 to-blue-600 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <div className="relative z-10">
                 <Users className="w-10 md:w-14 h-10 md:h-14 mb-6 md:mb-8 text-white" />
                 <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6">
@@ -121,7 +121,7 @@ export default function Home() {
                 </p>
                 <Link
                   to="/services"
-                  className="inline-block text-white font-black text-base md:text-lg hover:text-sky-100 transition-colors duration-300"
+                  className="inline-block text-white font-black text-base md:text-lg hover:text-blue-200 transition-colors duration-300"
                 >
                   Learn More →
                 </Link>
@@ -130,7 +130,7 @@ export default function Home() {
             </div>
 
             {/* Mobile Escorts Card */}
-            <div className="bg-amber-600 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+            <div className="bg-gradient-to-br from-orange-700 to-orange-600 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <div className="relative z-10">
                 <Truck className="w-10 md:w-14 h-10 md:h-14 mb-6 md:mb-8 text-white" />
                 <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6">
@@ -141,7 +141,7 @@ export default function Home() {
                 </p>
                 <Link
                   to="/services"
-                  className="inline-block text-white font-black text-base md:text-lg hover:text-amber-100 transition-colors duration-300"
+                  className="inline-block text-white font-black text-base md:text-lg hover:text-orange-200 transition-colors duration-300"
                 >
                   Learn More →
                 </Link>
@@ -150,7 +150,7 @@ export default function Home() {
             </div>
 
             {/* Security Equipment Card */}
-            <div className="bg-slate-600 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+            <div className="bg-gradient-to-br from-slate-700 to-slate-600 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <div className="relative z-10">
                 <Lock className="w-10 md:w-14 h-10 md:h-14 mb-6 md:mb-8 text-accent" />
                 <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6">
@@ -173,41 +173,43 @@ export default function Home() {
       </section>
 
       {/* Value Proposition Section - With Background */}
-      <section className="bg-gradient-to-r from-slate-800 to-slate-900 text-white relative overflow-hidden py-32 md:py-48">
-        <div className="absolute inset-0 opacity-10">
+      <section className="bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white relative overflow-hidden py-20 md:py-32">
+        <div className="absolute inset-0 opacity-5">
           <div
             className="absolute inset-0"
             style={{
               backgroundImage:
-                "url('https://images.pexels.com/photos/3706640/pexels-photo-3706640.jpeg?auto=compress&cs=tinysrgb&w=1200')",
+                "url('https://images.pexels.com/photos/3880225/pexels-photo-3880225.jpeg?auto=compress&cs=tinysrgb&w=1200')",
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
           ></div>
         </div>
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-800/95 to-slate-900/95"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-950/98 via-slate-900/98 to-slate-950/98"></div>
 
         <div className="container mx-auto px-6 relative z-10">
-          <div className="max-w-4xl">
-            <p className="text-3xl md:text-5xl font-black leading-tight mb-10">
-              We believe that in a world where security has become critical, a
-              personalized approach is key to ensuring you get the protection
-              you deserve.
+          <div className="max-w-4xl mx-auto text-center md:text-left">
+            <h2 className="text-3xl md:text-5xl font-black leading-tight mb-6 md:mb-8">
+              Why Professional Security Matters
+            </h2>
+            <p className="text-base md:text-xl font-bold opacity-90 leading-relaxed mb-6">
+              In a world where security has become critical, a personalized
+              approach is key to ensuring you get the protection you deserve.
             </p>
-            <p className="text-lg md:text-2xl font-bold opacity-90 leading-relaxed">
+            <p className="text-base md:text-lg font-bold opacity-80 leading-relaxed">
               From static guards and elite bodyguards to mobile escorts and
               advanced security equipment, we provide comprehensive, tailored
-              solutions for every security need.
+              solutions for every security need backed by decades of expertise.
             </p>
           </div>
         </div>
       </section>
 
       {/* Statistics Section */}
-      <section className="py-16 md:py-28 bg-gradient-to-b from-white to-slate-50">
+      <section className="py-16 md:py-28 bg-gradient-to-b from-slate-800 to-slate-900">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-            <div className="bg-accent text-accent-foreground p-8 md:p-12 rounded-xl md:rounded-2xl text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+            <div className="bg-gradient-to-br from-accent to-yellow-500 text-accent-foreground p-8 md:p-12 rounded-xl md:rounded-2xl text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
               <p className="text-4xl md:text-6xl font-black mb-2 md:mb-3">
                 30+
               </p>
@@ -215,7 +217,7 @@ export default function Home() {
                 Years of Experience
               </p>
             </div>
-            <div className="bg-primary text-primary-foreground p-8 md:p-12 rounded-xl md:rounded-2xl text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+            <div className="bg-gradient-to-br from-blue-700 to-blue-600 text-white p-8 md:p-12 rounded-xl md:rounded-2xl text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
               <p className="text-4xl md:text-6xl font-black mb-2 md:mb-3">
                 500+
               </p>
@@ -223,7 +225,7 @@ export default function Home() {
                 Trained Personnel
               </p>
             </div>
-            <div className="bg-slate-900 text-white p-8 md:p-12 rounded-xl md:rounded-2xl text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+            <div className="bg-gradient-to-br from-slate-700 to-slate-600 text-white p-8 md:p-12 rounded-xl md:rounded-2xl text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
               <p className="text-4xl md:text-6xl font-black mb-2 md:mb-3">
                 100+
               </p>
@@ -236,17 +238,17 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us - Feature Grid */}
-      <section className="py-20 md:py-40 bg-white">
+      <section className="py-20 md:py-40 bg-gradient-to-b from-slate-900 to-slate-950">
         <div className="container mx-auto px-6">
           {/* Section Title with Visual Styling */}
           <div className="mb-16 md:mb-20">
             <div className="flex items-start gap-3 md:gap-4 mb-6 md:mb-8">
               <div className="w-1.5 md:w-2 h-10 md:h-12 bg-accent rounded-full flex-shrink-0 mt-1"></div>
-              <h2 className="text-3xl md:text-6xl font-black text-primary leading-tight">
+              <h2 className="text-3xl md:text-6xl font-black text-white leading-tight">
                 Why Choose Eagle
               </h2>
             </div>
-            <p className="text-sm md:text-xl font-bold text-foreground ml-6 md:ml-8 max-w-2xl leading-relaxed">
+            <p className="text-sm md:text-xl font-bold text-gray-300 ml-6 md:ml-8 max-w-2xl leading-relaxed">
               Three decades of trusted security excellence
             </p>
           </div>
@@ -276,13 +278,13 @@ export default function Home() {
             ].map((item, i) => (
               <div
                 key={i}
-                className="bg-slate-50 border-2 border-slate-200 p-6 md:p-10 rounded-xl md:rounded-2xl hover:shadow-2xl hover:border-accent hover:-translate-y-2 transition-all duration-300"
+                className="bg-gradient-to-br from-slate-800 to-slate-700 border-2 border-slate-600 p-6 md:p-10 rounded-xl md:rounded-2xl hover:shadow-2xl hover:border-accent hover:-translate-y-2 transition-all duration-300"
               >
                 <item.icon className="w-10 md:w-12 h-10 md:h-12 text-accent mb-4 md:mb-6 transition-transform duration-300" />
-                <h3 className="text-lg md:text-2xl font-black text-primary mb-3 md:mb-4 leading-tight">
+                <h3 className="text-lg md:text-2xl font-black text-white mb-3 md:mb-4 leading-tight">
                   {item.title}
                 </h3>
-                <p className="text-sm md:text-lg font-bold text-slate-700 leading-relaxed">
+                <p className="text-sm md:text-lg font-bold text-gray-300 leading-relaxed">
                   {item.desc}
                 </p>
               </div>
@@ -292,57 +294,57 @@ export default function Home() {
       </section>
 
       {/* Presence Section */}
-      <section className="py-20 md:py-48 bg-gradient-to-b from-slate-50 to-white">
+      <section className="py-20 md:py-48 bg-gradient-to-b from-slate-900 to-slate-850">
         <div className="container mx-auto px-6">
           {/* Section Title with Visual Styling */}
           <div className="mb-16 md:mb-24">
             <div className="flex items-start gap-3 md:gap-4 mb-6 md:mb-8">
               <div className="w-1.5 md:w-2 h-10 md:h-12 bg-accent rounded-full flex-shrink-0 mt-1"></div>
-              <h2 className="text-3xl md:text-6xl font-black text-primary leading-tight">
+              <h2 className="text-3xl md:text-6xl font-black text-white leading-tight">
                 National Presence
               </h2>
             </div>
-            <p className="text-sm md:text-xl font-bold text-slate-700 ml-6 md:ml-8 max-w-2xl leading-relaxed">
+            <p className="text-sm md:text-xl font-bold text-gray-300 ml-6 md:ml-8 max-w-2xl leading-relaxed">
               Offices across Pakistan ensuring reliable coverage and local
               expertise
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-            <div className="bg-white border-2 border-accent p-8 md:p-12 rounded-xl md:rounded-3xl hover:shadow-2xl hover:border-accent transition-all duration-300">
+            <div className="bg-gradient-to-br from-slate-800 to-slate-700 border-2 border-accent p-8 md:p-12 rounded-xl md:rounded-3xl hover:shadow-2xl hover:border-yellow-300 transition-all duration-300">
               <p className="text-accent font-black text-xs uppercase tracking-widest mb-3 md:mb-4">
                 Head Office
               </p>
-              <h3 className="text-3xl md:text-4xl font-black text-primary mb-3 md:mb-4">
+              <h3 className="text-3xl md:text-4xl font-black text-white mb-3 md:mb-4">
                 Islamabad
               </h3>
-              <p className="text-base md:text-lg font-bold text-slate-700 leading-relaxed">
+              <p className="text-base md:text-lg font-bold text-gray-300 leading-relaxed">
                 Central coordination and management hub
               </p>
             </div>
 
-            <div className="bg-white border-2 border-primary p-8 md:p-12 rounded-xl md:rounded-3xl hover:shadow-2xl transition-all duration-300">
-              <p className="text-primary font-black text-xs uppercase tracking-widest mb-3 md:mb-4">
+            <div className="bg-gradient-to-br from-slate-800 to-slate-700 border-2 border-blue-500 p-8 md:p-12 rounded-xl md:rounded-3xl hover:shadow-2xl transition-all duration-300">
+              <p className="text-blue-400 font-black text-xs uppercase tracking-widest mb-3 md:mb-4">
                 Regional Offices
               </p>
-              <h3 className="text-3xl md:text-4xl font-black text-primary mb-4 md:mb-6">
+              <h3 className="text-3xl md:text-4xl font-black text-white mb-4 md:mb-6">
                 5+
               </h3>
-              <div className="text-sm md:text-base font-bold text-slate-700 space-y-2 md:space-y-3 leading-relaxed">
+              <div className="text-sm md:text-base font-bold text-gray-300 space-y-2 md:space-y-3 leading-relaxed">
                 <p>• Lahore • Karachi</p>
                 <p>• Multan • Peshawar</p>
                 <p>• Jhelum • Gujranwala</p>
               </div>
             </div>
 
-            <div className="bg-white border-2 border-slate-300 p-8 md:p-12 rounded-xl md:rounded-3xl hover:shadow-2xl hover:border-primary transition-all duration-300">
-              <p className="text-slate-600 font-black text-xs uppercase tracking-widest mb-3 md:mb-4">
+            <div className="bg-gradient-to-br from-slate-800 to-slate-700 border-2 border-slate-600 p-8 md:p-12 rounded-xl md:rounded-3xl hover:shadow-2xl hover:border-blue-500 transition-all duration-300">
+              <p className="text-slate-400 font-black text-xs uppercase tracking-widest mb-3 md:mb-4">
                 National Coverage
               </p>
-              <h3 className="text-3xl md:text-4xl font-black text-primary mb-4 md:mb-6">
+              <h3 className="text-3xl md:text-4xl font-black text-white mb-4 md:mb-6">
                 Nationwide
               </h3>
-              <div className="text-sm md:text-base font-bold text-slate-700 space-y-2 md:space-y-3 leading-relaxed">
+              <div className="text-sm md:text-base font-bold text-gray-300 space-y-2 md:space-y-3 leading-relaxed">
                 <p>Including AJK</p>
                 <p>Sub-offices in major cities</p>
                 <p>24/7 availability everywhere</p>
@@ -353,9 +355,9 @@ export default function Home() {
       </section>
 
       {/* Trusted By Section */}
-      <section className="py-16 md:py-32 bg-primary text-primary-foreground">
+      <section className="py-16 md:py-32 bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950">
         <div className="container mx-auto px-6">
-          <h3 className="text-2xl md:text-4xl font-black mb-10 md:mb-12 leading-tight">
+          <h3 className="text-2xl md:text-4xl font-black mb-10 md:mb-12 leading-tight text-white">
             Trusted by Leading Organizations
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
@@ -373,9 +375,9 @@ export default function Home() {
             ].map((client) => (
               <div
                 key={client}
-                className="aspect-square border-2 border-primary-foreground p-4 md:p-6 flex items-center justify-center text-center hover:bg-primary-foreground hover:text-primary hover:shadow-xl transition-all duration-300 cursor-pointer rounded"
+                className="aspect-square border-2 border-slate-700 p-4 md:p-6 flex items-center justify-center text-center hover:bg-accent hover:text-slate-950 hover:shadow-xl hover:border-accent transition-all duration-300 cursor-pointer rounded bg-slate-800"
               >
-                <p className="font-black text-xs md:text-base leading-tight">
+                <p className="font-black text-xs md:text-base leading-tight text-white">
                   {client}
                 </p>
               </div>
@@ -385,13 +387,13 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 md:py-48 bg-white">
+      <section className="py-20 md:py-48 bg-gradient-to-b from-slate-850 to-slate-950">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-7xl font-black text-primary mb-8 md:mb-10 leading-tight">
+          <h2 className="text-3xl md:text-7xl font-black text-white mb-8 md:mb-10 leading-tight">
             Ready to Protect <br className="hidden md:block" />
             What Matters?
           </h2>
-          <p className="text-base md:text-2xl font-bold text-slate-700 mb-12 md:mb-16 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-base md:text-2xl font-bold text-gray-300 mb-12 md:mb-16 max-w-3xl mx-auto leading-relaxed">
             Contact our security experts today for a personalized consultation
             and secure your peace of mind
           </p>
@@ -404,7 +406,7 @@ export default function Home() {
             </Link>
             <Link
               to="/services"
-              className="border-3 border-primary text-primary px-8 md:px-14 py-4 md:py-7 font-black text-base md:text-lg rounded-xl hover:bg-primary hover:text-primary-foreground transition-all duration-300 inline-block w-full sm:w-auto text-center"
+              className="border-3 border-accent text-accent px-8 md:px-14 py-4 md:py-7 font-black text-base md:text-lg rounded-xl hover:bg-accent hover:text-accent-foreground transition-all duration-300 inline-block w-full sm:w-auto text-center"
             >
               View Services
             </Link>
@@ -413,22 +415,22 @@ export default function Home() {
       </section>
 
       {/* Location Section with Google Maps */}
-      <section className="py-20 md:py-48 bg-gradient-to-b from-white to-slate-50">
+      <section className="py-20 md:py-48 bg-gradient-to-b from-slate-900 to-slate-950">
         <div className="container mx-auto px-6">
           <div className="mb-16 md:mb-24">
             <div className="flex items-start gap-3 md:gap-4 mb-6 md:mb-8">
               <div className="w-1.5 md:w-2 h-10 md:h-12 bg-accent rounded-full flex-shrink-0 mt-1"></div>
-              <h2 className="text-3xl md:text-6xl font-black text-primary leading-tight">
+              <h2 className="text-3xl md:text-6xl font-black text-white leading-tight">
                 Our Head Office Location
               </h2>
             </div>
-            <p className="text-sm md:text-xl font-bold text-slate-700 ml-6 md:ml-8 max-w-2xl leading-relaxed">
+            <p className="text-sm md:text-xl font-bold text-gray-300 ml-6 md:ml-8 max-w-2xl leading-relaxed">
               Visit us at our Islamabad headquarters for consultations and
               inquiries
             </p>
           </div>
 
-          <div className="rounded-3xl overflow-hidden shadow-2xl hover:shadow-2xl transition-all duration-300 border-2 border-slate-200">
+          <div className="rounded-3xl overflow-hidden shadow-2xl hover:shadow-2xl transition-all duration-300 border-2 border-slate-700">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13282.195486583572!2d72.99590472612844!3d33.66884932093898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df95ff25ed8b53%3A0x7e482ec7e99bebe0!2sG-11%2C%20Islamabad%2C%20Pakistan!5e0!3m2!1sen!2s!4v1766783293705!5m2!1sen!2s"
               width="100%"
@@ -444,9 +446,9 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-slate-900 text-white py-24 md:py-32">
+      <footer className="bg-slate-950 text-white py-24 md:py-32">
         <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-16 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-16 mb-16">
             <div>
               <div className="flex items-center gap-3 mb-8">
                 <img
@@ -546,7 +548,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="border-t border-slate-700 pt-8">
+          <div className="border-t border-slate-800 pt-8">
             <p className="text-center text-base font-bold opacity-60">
               © 2024 Eagle Security Guards. All rights reserved.
             </p>
