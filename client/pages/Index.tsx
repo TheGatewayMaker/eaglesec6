@@ -264,57 +264,57 @@ export default function Home() {
       </section>
 
       {/* Presence Section */}
-      <section className="py-32 md:py-48 bg-gradient-to-b from-slate-50 to-white">
+      <section className="py-20 md:py-48 bg-gradient-to-b from-slate-50 to-white">
         <div className="container mx-auto px-6">
           {/* Section Title with Visual Styling */}
-          <div className="mb-24">
-            <div className="inline-flex items-center gap-4 mb-8">
-              <div className="w-2 h-12 bg-accent rounded-full"></div>
-              <h2 className="text-5xl md:text-6xl font-black text-primary">
+          <div className="mb-16 md:mb-24">
+            <div className="flex items-start gap-3 md:gap-4 mb-6 md:mb-8">
+              <div className="w-1.5 md:w-2 h-10 md:h-12 bg-accent rounded-full flex-shrink-0 mt-1"></div>
+              <h2 className="text-3xl md:text-6xl font-black text-primary leading-tight">
                 National Presence
               </h2>
             </div>
-            <p className="text-xl font-bold text-foreground ml-6 max-w-2xl">
+            <p className="text-sm md:text-xl font-bold text-slate-700 ml-6 md:ml-8 max-w-2xl leading-relaxed">
               Offices across Pakistan ensuring reliable coverage and local
               expertise
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white border-2 border-accent p-12 rounded-3xl hover:shadow-2xl hover:border-accent transition-all duration-300">
-              <p className="text-accent font-black text-xs uppercase tracking-widest mb-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+            <div className="bg-white border-2 border-accent p-8 md:p-12 rounded-xl md:rounded-3xl hover:shadow-2xl hover:border-accent transition-all duration-300">
+              <p className="text-accent font-black text-xs uppercase tracking-widest mb-3 md:mb-4">
                 Head Office
               </p>
-              <h3 className="text-4xl font-black text-primary mb-4">
+              <h3 className="text-3xl md:text-4xl font-black text-primary mb-3 md:mb-4">
                 Islamabad
               </h3>
-              <p className="text-lg font-bold text-foreground">
+              <p className="text-base md:text-lg font-bold text-slate-700 leading-relaxed">
                 Central coordination and management hub
               </p>
             </div>
 
-            <div className="bg-white border-2 border-primary p-12 rounded-3xl hover:shadow-2xl transition-all duration-300">
-              <p className="text-primary font-black text-xs uppercase tracking-widest mb-4">
+            <div className="bg-white border-2 border-primary p-8 md:p-12 rounded-xl md:rounded-3xl hover:shadow-2xl transition-all duration-300">
+              <p className="text-primary font-black text-xs uppercase tracking-widest mb-3 md:mb-4">
                 Regional Offices
               </p>
-              <h3 className="text-4xl font-black text-primary mb-6">
+              <h3 className="text-3xl md:text-4xl font-black text-primary mb-4 md:mb-6">
                 5+
               </h3>
-              <div className="text-base font-bold text-foreground space-y-3">
+              <div className="text-sm md:text-base font-bold text-slate-700 space-y-2 md:space-y-3 leading-relaxed">
                 <p>• Lahore • Karachi</p>
                 <p>• Multan • Peshawar</p>
                 <p>• Jhelum • Gujranwala</p>
               </div>
             </div>
 
-            <div className="bg-white border-2 border-slate-300 p-12 rounded-3xl hover:shadow-2xl hover:border-primary transition-all duration-300">
-              <p className="text-slate-600 font-black text-xs uppercase tracking-widest mb-4">
+            <div className="bg-white border-2 border-slate-300 p-8 md:p-12 rounded-xl md:rounded-3xl hover:shadow-2xl hover:border-primary transition-all duration-300">
+              <p className="text-slate-600 font-black text-xs uppercase tracking-widest mb-3 md:mb-4">
                 National Coverage
               </p>
-              <h3 className="text-4xl font-black text-primary mb-6">
+              <h3 className="text-3xl md:text-4xl font-black text-primary mb-4 md:mb-6">
                 Nationwide
               </h3>
-              <div className="text-base font-bold text-foreground space-y-3">
+              <div className="text-sm md:text-base font-bold text-slate-700 space-y-2 md:space-y-3 leading-relaxed">
                 <p>Including AJK</p>
                 <p>Sub-offices in major cities</p>
                 <p>24/7 availability everywhere</p>
