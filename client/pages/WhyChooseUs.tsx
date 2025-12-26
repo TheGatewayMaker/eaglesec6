@@ -120,7 +120,9 @@ export default function WhyChooseUs() {
                 key={client}
                 className="bg-gradient-to-br from-slate-800 to-slate-700 p-6 md:p-8 rounded-xl border-2 border-slate-600 shadow-sm hover:shadow-md hover:border-accent transition-all duration-300 text-center"
               >
-                <p className="font-black text-white text-sm md:text-base">{client}</p>
+                <p className="font-black text-white text-sm md:text-base">
+                  {client}
+                </p>
               </div>
             ))}
           </div>
@@ -182,17 +184,13 @@ export default function WhyChooseUs() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="p-8 bg-gradient-to-br from-slate-800 to-slate-700 rounded-xl border-2 border-slate-600 shadow-sm hover:shadow-md transition-all">
-                  <h4 className="font-black text-white mb-3">
-                    Service Range
-                  </h4>
+                  <h4 className="font-black text-white mb-3">Service Range</h4>
                   <p className="text-gray-300 font-bold text-sm md:text-base">
                     Static guards, bodyguards, escorts, and equipment
                   </p>
                 </div>
                 <div className="p-8 bg-gradient-to-br from-slate-800 to-slate-700 rounded-xl border-2 border-slate-600 shadow-sm hover:shadow-md transition-all">
-                  <h4 className="font-black text-white mb-3">
-                    Client Base
-                  </h4>
+                  <h4 className="font-black text-white mb-3">Client Base</h4>
                   <p className="text-gray-300 font-bold text-sm md:text-base">
                     Government, banking, media, and corporate sectors
                   </p>

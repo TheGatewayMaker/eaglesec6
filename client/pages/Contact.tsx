@@ -42,7 +42,9 @@ export default function Contact() {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 text-white py-24 md:py-32">
         <div className="container mx-auto px-6">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-black mb-6">Get in Touch</h1>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-black mb-6">
+            Get in Touch
+          </h1>
           <p className="text-base sm:text-lg md:text-xl opacity-90 max-w-2xl font-bold leading-relaxed">
             Contact our security experts for a consultation or inquiries
           </p>
@@ -180,15 +182,39 @@ export default function Contact() {
                     required
                     className="w-full px-5 py-3 bg-slate-800 border-2 border-slate-700 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
                   >
-                    <option value="" className="bg-slate-800 text-white">Select a subject</option>
-                    <option value="security-guards" className="bg-slate-800 text-white">
+                    <option value="" className="bg-slate-800 text-white">
+                      Select a subject
+                    </option>
+                    <option
+                      value="security-guards"
+                      className="bg-slate-800 text-white"
+                    >
                       Static Security Guards
                     </option>
-                    <option value="bodyguards" className="bg-slate-800 text-white">Bodyguards</option>
-                    <option value="mobile-escorts" className="bg-slate-800 text-white">Mobile Escorts</option>
-                    <option value="equipment" className="bg-slate-800 text-white">Security Equipment</option>
-                    <option value="inquiry" className="bg-slate-800 text-white">General Inquiry</option>
-                    <option value="other" className="bg-slate-800 text-white">Other</option>
+                    <option
+                      value="bodyguards"
+                      className="bg-slate-800 text-white"
+                    >
+                      Bodyguards
+                    </option>
+                    <option
+                      value="mobile-escorts"
+                      className="bg-slate-800 text-white"
+                    >
+                      Mobile Escorts
+                    </option>
+                    <option
+                      value="equipment"
+                      className="bg-slate-800 text-white"
+                    >
+                      Security Equipment
+                    </option>
+                    <option value="inquiry" className="bg-slate-800 text-white">
+                      General Inquiry
+                    </option>
+                    <option value="other" className="bg-slate-800 text-white">
+                      Other
+                    </option>
                   </select>
                 </div>
               </div>

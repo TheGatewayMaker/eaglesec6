@@ -26,7 +26,9 @@ export default function Navigation() {
               className="h-12 w-12 md:h-16 md:w-16"
             />
             <div className="flex flex-col gap-1">
-              <span className="text-xl md:text-2xl font-black text-white">Eagle</span>
+              <span className="text-xl md:text-2xl font-black text-white">
+                Eagle
+              </span>
               <span className="text-xs font-black tracking-widest text-accent">
                 SECURITY GUARDS
               </span>

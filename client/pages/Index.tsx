@@ -193,7 +193,8 @@ export default function Home() {
               Why Professional Security Matters
             </h2>
             <p className="text-base md:text-xl font-bold opacity-90 leading-relaxed mb-6">
-              In a world where security has become critical, a personalized approach is key to ensuring you get the protection you deserve.
+              In a world where security has become critical, a personalized
+              approach is key to ensuring you get the protection you deserve.
             </p>
             <p className="text-base md:text-lg font-bold opacity-80 leading-relaxed">
               From static guards and elite bodyguards to mobile escorts and
