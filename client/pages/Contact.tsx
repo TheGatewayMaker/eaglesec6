@@ -67,9 +67,14 @@ export default function Contact() {
               </p>
             </div>
 
-            <div className="bg-card p-8 md:p-10 rounded-xl border-2 border-border shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom" style={{ animationDelay: "100ms" }}>
+            <div
+              className="bg-card p-8 md:p-10 rounded-xl border-2 border-border shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom"
+              style={{ animationDelay: "100ms" }}
+            >
               <Phone className="w-10 h-10 text-accent mb-6" />
-              <h3 className="text-2xl font-black text-foreground mb-4">Phone</h3>
+              <h3 className="text-2xl font-black text-foreground mb-4">
+                Phone
+              </h3>
               <p className="text-muted-foreground font-bold mb-2">
                 For inquiries and quotes
               </p>
@@ -78,12 +83,17 @@ export default function Contact() {
               </p>
             </div>
 
-            <div className="bg-card p-8 md:p-10 rounded-xl border-2 border-border shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom" style={{ animationDelay: "200ms" }}>
+            <div
+              className="bg-card p-8 md:p-10 rounded-xl border-2 border-border shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom"
+              style={{ animationDelay: "200ms" }}
+            >
               <Clock className="w-10 h-10 text-accent mb-6" />
               <h3 className="text-2xl font-black text-foreground mb-4">
                 Response Time
               </h3>
-              <p className="text-muted-foreground font-bold mb-2">Quick turnaround</p>
+              <p className="text-muted-foreground font-bold mb-2">
+                Quick turnaround
+              </p>
               <p className="text-muted-foreground/80 font-bold">
                 We prioritize all security consultations
               </p>
@@ -182,27 +192,15 @@ export default function Contact() {
                     required
                     className="w-full px-5 py-3 bg-input border-2 border-border rounded-xl text-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
                   >
-                    <option value="">
-                      Select a subject
-                    </option>
+                    <option value="">Select a subject</option>
                     <option value="security-guards">
                       Static Security Guards
                     </option>
-                    <option value="bodyguards">
-                      Bodyguards
-                    </option>
-                    <option value="mobile-escorts">
-                      Mobile Escorts
-                    </option>
-                    <option value="equipment">
-                      Security Equipment
-                    </option>
-                    <option value="inquiry">
-                      General Inquiry
-                    </option>
-                    <option value="other">
-                      Other
-                    </option>
+                    <option value="bodyguards">Bodyguards</option>
+                    <option value="mobile-escorts">Mobile Escorts</option>
+                    <option value="equipment">Security Equipment</option>
+                    <option value="inquiry">General Inquiry</option>
+                    <option value="other">Other</option>
                   </select>
                 </div>
               </div>
@@ -257,7 +255,10 @@ export default function Contact() {
             </div>
 
             {/* Regional Offices */}
-            <div className="bg-background p-8 md:p-10 rounded-xl border-2 border-border shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom" style={{ animationDelay: "100ms" }}>
+            <div
+              className="bg-background p-8 md:p-10 rounded-xl border-2 border-border shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom"
+              style={{ animationDelay: "100ms" }}
+            >
               <h3 className="text-2xl font-black text-foreground mb-6">
                 Regional Offices
               </h3>
@@ -271,7 +272,10 @@ export default function Contact() {
             </div>
 
             {/* Area & Sub Offices */}
-            <div className="bg-background p-8 md:p-10 rounded-xl border-2 border-border shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom" style={{ animationDelay: "200ms" }}>
+            <div
+              className="bg-background p-8 md:p-10 rounded-xl border-2 border-border shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom"
+              style={{ animationDelay: "200ms" }}
+            >
               <h3 className="text-2xl font-black text-foreground mb-6">
                 Area & Sub Offices
               </h3>

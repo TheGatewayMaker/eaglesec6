@@ -71,7 +71,10 @@ export default function About() {
             </div>
 
             {/* Mission */}
-            <div className="bg-card p-8 md:p-10 rounded-xl border-2 border-border shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom" style={{ animationDelay: "100ms" }}>
+            <div
+              className="bg-card p-8 md:p-10 rounded-xl border-2 border-border shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom"
+              style={{ animationDelay: "100ms" }}
+            >
               <div className="flex items-center gap-3 mb-6">
                 <Target className="w-8 h-8 text-accent flex-shrink-0" />
                 <h3 className="text-2xl font-black text-foreground">Mission</h3>
@@ -85,10 +88,15 @@ export default function About() {
             </div>
 
             {/* Core Values */}
-            <div className="bg-card p-8 md:p-10 rounded-xl border-2 border-border shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom" style={{ animationDelay: "200ms" }}>
+            <div
+              className="bg-card p-8 md:p-10 rounded-xl border-2 border-border shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom"
+              style={{ animationDelay: "200ms" }}
+            >
               <div className="flex items-center gap-3 mb-6">
                 <Compass className="w-8 h-8 text-accent flex-shrink-0" />
-                <h3 className="text-2xl font-black text-foreground">Commitment</h3>
+                <h3 className="text-2xl font-black text-foreground">
+                  Commitment
+                </h3>
               </div>
               <p className="text-muted-foreground leading-relaxed font-bold">
                 Providing most reliable, efficient and cost effective guarding

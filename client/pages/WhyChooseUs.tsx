@@ -35,7 +35,10 @@ export default function WhyChooseUs() {
             </div>
 
             {/* Thorough Vetting */}
-            <div className="p-8 md:p-10 rounded-xl border-2 border-border bg-card shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom" style={{ animationDelay: "50ms" }}>
+            <div
+              className="p-8 md:p-10 rounded-xl border-2 border-border bg-card shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom"
+              style={{ animationDelay: "50ms" }}
+            >
               <Shield className="w-12 h-12 text-accent mb-6" />
               <h3 className="text-2xl font-black text-foreground mb-6">
                 Thorough Vetting
@@ -48,7 +51,10 @@ export default function WhyChooseUs() {
             </div>
 
             {/* Elite Special Forces */}
-            <div className="p-8 md:p-10 rounded-xl border-2 border-border bg-card shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom" style={{ animationDelay: "100ms" }}>
+            <div
+              className="p-8 md:p-10 rounded-xl border-2 border-border bg-card shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom"
+              style={{ animationDelay: "100ms" }}
+            >
               <Users className="w-12 h-12 text-accent mb-6" />
               <h3 className="text-2xl font-black text-foreground mb-6">
                 Elite Special Forces
@@ -60,7 +66,10 @@ export default function WhyChooseUs() {
             </div>
 
             {/* Professional Training */}
-            <div className="p-8 md:p-10 rounded-xl border-2 border-border bg-card shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom" style={{ animationDelay: "150ms" }}>
+            <div
+              className="p-8 md:p-10 rounded-xl border-2 border-border bg-card shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom"
+              style={{ animationDelay: "150ms" }}
+            >
               <Zap className="w-12 h-12 text-accent mb-6" />
               <h3 className="text-2xl font-black text-foreground mb-6">
                 Professional Training
@@ -72,7 +81,10 @@ export default function WhyChooseUs() {
             </div>
 
             {/* Comprehensive Solutions */}
-            <div className="p-8 md:p-10 rounded-xl border-2 border-border bg-card shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom" style={{ animationDelay: "200ms" }}>
+            <div
+              className="p-8 md:p-10 rounded-xl border-2 border-border bg-card shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom"
+              style={{ animationDelay: "200ms" }}
+            >
               <CheckCircle2 className="w-12 h-12 text-accent mb-6" />
               <h3 className="text-2xl font-black text-foreground mb-6">
                 Comprehensive Solutions
@@ -84,7 +96,10 @@ export default function WhyChooseUs() {
             </div>
 
             {/* Nationwide Presence */}
-            <div className="p-8 md:p-10 rounded-xl border-2 border-border bg-card shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom" style={{ animationDelay: "250ms" }}>
+            <div
+              className="p-8 md:p-10 rounded-xl border-2 border-border bg-card shadow-md hover:shadow-lg hover:border-accent transition-all duration-300 animate-slide-in-from-bottom"
+              style={{ animationDelay: "250ms" }}
+            >
               <Star className="w-12 h-12 text-accent mb-6" />
               <h3 className="text-2xl font-black text-foreground mb-6">
                 Nationwide Presence
@@ -184,13 +199,17 @@ export default function WhyChooseUs() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="p-8 bg-card rounded-xl border-2 border-border shadow-sm hover:shadow-md transition-all">
-                  <h4 className="font-black text-foreground mb-3">Service Range</h4>
+                  <h4 className="font-black text-foreground mb-3">
+                    Service Range
+                  </h4>
                   <p className="text-muted-foreground font-bold text-sm md:text-base">
                     Static guards, bodyguards, escorts, and equipment
                   </p>
                 </div>
                 <div className="p-8 bg-card rounded-xl border-2 border-border shadow-sm hover:shadow-md transition-all">
-                  <h4 className="font-black text-foreground mb-3">Client Base</h4>
+                  <h4 className="font-black text-foreground mb-3">
+                    Client Base
+                  </h4>
                   <p className="text-muted-foreground font-bold text-sm md:text-base">
                     Government, banking, media, and corporate sectors
                   </p>

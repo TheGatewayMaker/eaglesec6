@@ -82,7 +82,10 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             {/* Static Guards - Large Featured Card */}
-            <div className="md:col-span-2 lg:col-span-1 bg-card text-foreground p-0 rounded-3xl overflow-hidden relative group hover:shadow-2xl transition-all duration-300 border border-border animate-slide-in-from-bottom" style={{ animationDelay: "100ms" }}>
+            <div
+              className="md:col-span-2 lg:col-span-1 bg-card text-foreground p-0 rounded-3xl overflow-hidden relative group hover:shadow-2xl transition-all duration-300 border border-border animate-slide-in-from-bottom"
+              style={{ animationDelay: "100ms" }}
+            >
               <div className="relative overflow-hidden h-64 md:h-80">
                 <img
                   src="https://images.pexels.com/photos/29656069/pexels-photo-29656069.jpeg?auto=compress&cs=tinysrgb&w=800"
@@ -110,7 +113,10 @@ export default function Home() {
             </div>
 
             {/* Bodyguards Card */}
-            <div className="bg-blue-600 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 animate-slide-in-from-bottom" style={{ animationDelay: "200ms" }}>
+            <div
+              className="bg-blue-600 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 animate-slide-in-from-bottom"
+              style={{ animationDelay: "200ms" }}
+            >
               <div className="relative z-10">
                 <Users className="w-10 md:w-14 h-10 md:h-14 mb-6 md:mb-8 text-white" />
                 <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6">
@@ -130,7 +136,10 @@ export default function Home() {
             </div>
 
             {/* Mobile Escorts Card */}
-            <div className="bg-orange-600 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 animate-slide-in-from-bottom" style={{ animationDelay: "300ms" }}>
+            <div
+              className="bg-orange-600 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 animate-slide-in-from-bottom"
+              style={{ animationDelay: "300ms" }}
+            >
               <div className="relative z-10">
                 <Truck className="w-10 md:w-14 h-10 md:h-14 mb-6 md:mb-8 text-white" />
                 <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6">
@@ -150,7 +159,10 @@ export default function Home() {
             </div>
 
             {/* Security Equipment Card */}
-            <div className="bg-slate-700 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 animate-slide-in-from-bottom" style={{ animationDelay: "400ms" }}>
+            <div
+              className="bg-slate-700 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 animate-slide-in-from-bottom"
+              style={{ animationDelay: "400ms" }}
+            >
               <div className="relative z-10">
                 <Lock className="w-10 md:w-14 h-10 md:h-14 mb-6 md:mb-8 text-accent" />
                 <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6">
@@ -444,7 +456,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
     </div>
   );
 }

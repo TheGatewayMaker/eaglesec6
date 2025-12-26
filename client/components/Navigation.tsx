@@ -59,7 +59,11 @@ export default function Navigation() {
               onClick={toggleTheme}
               className="p-2 rounded-lg hover:bg-accent/10 transition-all duration-300 flex items-center justify-center"
               aria-label="Toggle dark mode"
-              title={theme === "light" ? "Switch to Dark Mode" : "Switch to Light Mode"}
+              title={
+                theme === "light"
+                  ? "Switch to Dark Mode"
+                  : "Switch to Light Mode"
+              }
             >
               {theme === "light" ? (
                 <Moon className="w-5 h-5 md:w-6 md:h-6 text-foreground transition-transform duration-300" />

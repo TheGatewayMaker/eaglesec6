@@ -75,7 +75,10 @@ export default function Services() {
 
           {/* Bodyguards */}
           <div className="mb-16 md:mb-20 pb-12 md:pb-16 border-b border-border">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center animate-fade-in" style={{ animationDelay: "100ms" }}>
+            <div
+              className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center animate-fade-in"
+              style={{ animationDelay: "100ms" }}
+            >
               <div className="overflow-hidden rounded-xl shadow-lg h-64 md:h-96 order-2 md:order-1">
                 <img
                   src="https://images.pexels.com/photos/7714972/pexels-photo-7714972.jpeg?auto=compress&cs=tinysrgb&w=800"
@@ -127,7 +130,10 @@ export default function Services() {
 
           {/* Mobile Escorts */}
           <div className="mb-16 md:mb-20 pb-12 md:pb-16 border-b border-border">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center animate-fade-in" style={{ animationDelay: "200ms" }}>
+            <div
+              className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center animate-fade-in"
+              style={{ animationDelay: "200ms" }}
+            >
               <div>
                 <div className="flex items-center gap-3 mb-6">
                   <Truck className="w-10 md:w-12 h-10 md:h-12 text-accent flex-shrink-0" />
@@ -178,7 +184,10 @@ export default function Services() {
           </div>
 
           {/* Security Equipment */}
-          <div className="mb-16 md:mb-20 animate-fade-in" style={{ animationDelay: "300ms" }}>
+          <div
+            className="mb-16 md:mb-20 animate-fade-in"
+            style={{ animationDelay: "300ms" }}
+          >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
               <div className="overflow-hidden rounded-xl shadow-lg h-64 md:h-96 order-2 md:order-1">
                 <img
