@@ -163,56 +163,56 @@ export default function Home() {
       </section>
 
       {/* Presence Section */}
-      <section className="py-20 md:py-28 bg-slate-50">
+      <section className="py-24 md:py-40 bg-gradient-to-b from-slate-50 to-white">
         <div className="container mx-auto px-6">
-          <h2 className="text-h2 text-primary text-center mb-4 font-bold">
+          <h2 className="text-h2 text-primary text-center mb-5 font-black">
             Presence Across Pakistan
           </h2>
-          <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto text-lg">
+          <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto text-xl font-semibold">
             Multiple offices nationwide ensuring reliable coverage and local
             expertise
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Head Office */}
-            <div className="bg-white p-8 rounded-lg border border-border shadow-sm">
-              <h3 className="text-h3 font-bold text-primary mb-4">
+            <div className="bg-white p-10 rounded-xl border border-border shadow-lg hover:shadow-2xl transition-shadow duration-300">
+              <h3 className="text-h3 font-black text-primary mb-5">
                 Head Office
               </h3>
-              <p className="text-lg font-semibold text-accent mb-2">
+              <p className="text-xl font-black text-accent mb-3">
                 Islamabad
               </p>
-              <p className="text-muted-foreground">
+              <p className="text-lg text-muted-foreground font-semibold">
                 Our central hub providing comprehensive coordination and
                 management
               </p>
             </div>
 
             {/* Regional Offices */}
-            <div className="bg-white p-8 rounded-lg border border-border shadow-sm">
-              <h3 className="text-h3 font-bold text-primary mb-4">
+            <div className="bg-white p-10 rounded-xl border border-border shadow-lg hover:shadow-2xl transition-shadow duration-300">
+              <h3 className="text-h3 font-black text-primary mb-5">
                 Regional Offices
               </h3>
-              <ul className="space-y-2 text-foreground">
-                <li>• South (Multan)</li>
-                <li>• Lahore</li>
-                <li>• Karachi</li>
-                <li>• Jhelum</li>
-                <li>• Gujranwala</li>
+              <ul className="space-y-3 text-foreground font-semibold">
+                <li className="text-lg">• South (Multan)</li>
+                <li className="text-lg">• Lahore</li>
+                <li className="text-lg">• Karachi</li>
+                <li className="text-lg">• Jhelum</li>
+                <li className="text-lg">• Gujranwala</li>
               </ul>
             </div>
 
             {/* Area & Sub Offices */}
-            <div className="bg-white p-8 rounded-lg border border-border shadow-sm">
-              <h3 className="text-h3 font-bold text-primary mb-4">
+            <div className="bg-white p-10 rounded-xl border border-border shadow-lg hover:shadow-2xl transition-shadow duration-300">
+              <h3 className="text-h3 font-black text-primary mb-5">
                 Area & Sub Offices
               </h3>
-              <ul className="space-y-2 text-foreground">
-                <li>• Sargodha • Peshawar</li>
-                <li>• Mirpur • Sialkot</li>
-                <li>• Sheikhupura • Chakwal</li>
-                <li>• Muzafarabad • Rawalakot</li>
-                <li>• Gharo • Karachi</li>
+              <ul className="space-y-3 text-foreground font-semibold">
+                <li className="text-lg">• Sargodha • Peshawar</li>
+                <li className="text-lg">• Mirpur • Sialkot</li>
+                <li className="text-lg">• Sheikhupura • Chakwal</li>
+                <li className="text-lg">• Muzafarabad • Rawalakot</li>
+                <li className="text-lg">• Gharo • Karachi</li>
               </ul>
             </div>
           </div>
