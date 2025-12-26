@@ -85,6 +85,11 @@ export default {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      fontSize: {
+        h1: ["3.5rem", { lineHeight: "1.1", fontWeight: "800" }],
+        h2: ["2.5rem", { lineHeight: "1.2", fontWeight: "800" }],
+        h3: ["1.875rem", { lineHeight: "1.3", fontWeight: "700" }],
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
