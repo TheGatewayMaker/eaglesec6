@@ -40,29 +40,29 @@ export default function Home() {
       </section>
 
       {/* Vision & Mission Section */}
-      <section className="py-20 md:py-28 bg-slate-50">
+      <section className="py-24 md:py-40 bg-gradient-to-b from-slate-50 to-white">
         <div className="container mx-auto px-6">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-h2 text-primary text-center mb-12 font-bold">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-h2 text-primary text-center mb-16 font-black">
               Established Since 1992
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-white p-8 rounded-lg border border-border">
-                <h3 className="text-h3 font-bold text-primary mb-4">
+              <div className="bg-white p-10 rounded-xl border border-border shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                <h3 className="text-h3 font-black text-primary mb-5">
                   Our Vision
                 </h3>
-                <p className="text-foreground leading-relaxed">
+                <p className="text-lg text-foreground leading-relaxed font-semibold">
                   Vigilance by the dedicated and quality conscious guards is the
                   ultimate answer to security.
                 </p>
               </div>
 
-              <div className="bg-white p-8 rounded-lg border border-border">
-                <h3 className="text-h3 font-bold text-primary mb-4">
+              <div className="bg-white p-10 rounded-xl border border-border shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                <h3 className="text-h3 font-black text-primary mb-5">
                   Our Mission
                 </h3>
-                <p className="text-foreground leading-relaxed">
+                <p className="text-lg text-foreground leading-relaxed font-semibold">
                   Being managed by competent ex-army officers with wide
                   experience in designing and implementing effective security
                   systems to combat prevailing threats, we aim to select and
@@ -71,18 +71,18 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-white p-8 rounded-lg border border-border">
-              <h3 className="text-h3 font-bold text-primary mb-4">
+            <div className="bg-white p-10 rounded-xl border border-border shadow-lg hover:shadow-2xl transition-shadow duration-300">
+              <h3 className="text-h3 font-black text-primary mb-6">
                 Our Background
               </h3>
-              <p className="text-foreground leading-relaxed mb-4">
+              <p className="text-lg text-foreground leading-relaxed font-semibold mb-5">
                 Eagle Security Guards was established in 1992. The company has
                 the NOC to operate all over Pakistan including AJK. Today the
                 company is one of the leading private security companies in
                 Pakistan upholding its credible name to provide most reliable,
                 efficient and cost effective guarding services.
               </p>
-              <p className="text-foreground leading-relaxed">
+              <p className="text-lg text-foreground leading-relaxed font-semibold">
                 Our head office is located in Islamabad with regional/branch
                 offices in almost all major cities of Pakistan.
               </p>
